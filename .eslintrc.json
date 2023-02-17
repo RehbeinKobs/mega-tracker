@@ -1,0 +1,23 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "camelcase": 2,
+        "arrow-parens": [
+            2,
+            "always"
+        ],
+        "implicit-arrow-linebreak": "off",
+        "object-curly-newline": "off",
+        "complexity": [
+            "error",
+            5
+        ]
+    }
+}
